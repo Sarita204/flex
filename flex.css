@@ -1,0 +1,321 @@
+body {
+    background-color: rgb(225, 37, 37);
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-area {
+    background-color: white;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    min-height: 50px;
+    background:#f3f3f4;
+}
+
+.child-header {
+    min-width: 69.9rem;
+    min-height: 5.5em;
+    margin: -12px -14px 0px 20px;
+    padding: 0 21px 0 0;
+    border-bottom: 1px solid #e7eaec;
+    background-color:white;
+}
+
+.icon-bar {
+    display: flex;
+    background-color: #1ab394;
+    border-color: #1ab394;
+    margin: 28px 8px 5px 219px;
+    border-radius: 3px;
+    padding: 2px 1.7px 1px 1.7px;
+    color: white;
+}
+
+.fa {
+    color:white;
+    border-color: #a6aaa9;
+    padding: 6px 11px 6px 11px;
+}
+.search {
+    margin:30px 1px 5px 0px;
+    font-family: inherit;
+    line-height: 1.9px;
+}
+
+ .form-control, .single-line {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 0px solid #e5e6e7;
+    color: inherit;
+    display: block;
+    padding: 5px 10px;
+    font-family: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+
+.form-control {
+    font-size: 0.9rem;
+    width:265px;
+}
+.welcome {
+margin:5px 0px 0px 219px;
+padding: 3px 7px;
+color:#888888;
+font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13.3px;
+}
+
+.msg {
+        margin:0px 0px 0px 0px;
+        font-size: 14px;
+        padding: 1px;
+        background-color: white;
+        color:#888888;
+        font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: -webkit-match-parent;
+    }
+    
+    .bell {
+            margin:0px 2px 0px 0px;
+            font: normal normal normal 14px/1 FontAwesome;
+            color:#888888;
+    }
+
+    .signout {
+        padding: 2px;
+        font-size: 10px;
+        font: normal normal normal 13px/1 FontAwesome;
+        margin: -5px ;
+    }
+    .logout {
+        margin:35px 0px 0px 10px; 
+        color: #999c9e;
+        font-size: 14px;
+        font-weight: 550;
+        text-decoration:none;
+    }
+
+    .controller {
+        margin:0px 0px 0px 12px;
+        font: normal normal normal 13px/1 FontAwesome;
+        font-size: 14px;
+    }
+    .fa-regular {
+       color:#888888;
+    }
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.child1 {
+    min-width: 220px;
+    min-height: 100%;
+    margin-top: -64px;
+    border-radius: 1em;
+
+}
+
+.navyblue-child {
+    background-color: #323f4a;
+    height: 600px;
+    border-radius: 0%;
+
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    background-color: #BDBDBD;
+    flex-direction:column;
+    background-color: #f8f2f2;
+    height: 50px;
+    width: 30px;
+    box-sizing: border-box;
+}
+
+.box{
+    min-height: 500px;
+    min-width: 1110px;
+    margin: 0px;
+    border-radius: 1em;
+    background-color: rgb(246, 250, 252);
+    border-radius: 2px;
+}
+
+.red-box {
+
+        background-color:white;
+        height: 170px;
+        width: 230px;
+        margin: 0px 230px;
+        border: 1px solid #e5e6e7;
+        
+    }
+    .header-content {
+       margin:12px 25px 0px 12px ;
+       text-align: left;
+       color:#2f4050;
+       font-size: 14px;
+       font-weight: 600;
+    }
+
+    .sub-header {
+        background-color: rgb(10, 151, 245);
+        color: white;
+        box-sizing: border-box;
+        width:45px;
+        font-size: 12px;
+        margin: 10px 70px;
+        padding: 2px;
+    }
+
+    .number {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .stat-percent {
+        font-weight: 300;
+        float: right;
+        color: rgb(79, 137, 245);
+    }
+
+    .fa {
+        display: inline-block;
+        font: normal normal normal 12px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::after, ::before {
+        box-sizing: border-box;
+    }
+
+    .small {
+        font-size: 20px;
+        font-weight: 200;
+        box-sizing: border-box;
+        color: rgb(38, 154, 243);
+    }
+.green-box {
+    background-color: white;
+    height: 170px;
+    width:230px;
+    margin: 0px 30px 0px -200px;
+    border: 1px solid #e5e6e7;
+}
+.header-content1 {
+    margin:12px 25px 0px 12px ;
+    text-align: left;
+    color:#2f4050;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sub-header1 {
+    background-color: rgb(37, 213, 190);
+    color: white;
+    box-sizing: border-box;
+    width:45px;
+    font-size: 12px;
+    margin: 10px 70px;
+    padding: 2px;
+}
+.stat-percent1 {
+    font-weight: 300;
+    float: right;
+    color: rgb(37, 213, 190);
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.blue-box {
+    background-color:white;
+    height: 170px;
+    width:220px;
+    margin: 0px  10 0px 10px;
+    border: 1px solid #e5e6e7;
+}
+
+.header-content2 {
+    margin:10px 25px 0px 12px ;
+    text-align: left;
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub-header2 {
+    background-color: rgb(7, 142, 124);
+    color: white;
+    box-sizing: border-box;
+    width:45px;
+    font-size: 12px;
+    margin: 10px 70px;
+    padding: 2px;
+}
+.stat-percent1 {
+    font-weight: 300;
+    float: right;
+    color: rgb(37, 213, 190);
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.Pink-box {
+    background-color: white;
+    height: 185px;
+    width:215px;
+    margin: 0px 20px 0px 30px;;
+    border: 1px solid #e5e6e7;
+}
+.header-content3 {
+    margin:10px 25px 0px 12px ;
+    text-align: left;
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub-header3 {
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    width:55px;
+    font-size: 12px;
+    margin: 10px 70px;
+    padding: 2px;
+}
